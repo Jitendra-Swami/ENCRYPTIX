@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 100%;
+  width: 100%;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: gray;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 150px;
+}
+.title {
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: double;
+}
+.header img {
+  height: 22%;
+  width: 22%;
+  position: relative;
+  align-items: center;
+  border-radius: 25px;
+}
+.header blockquote {
+  font-family: Times;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+body {
+  background-color: grey;
+}
+
+.menu a {
+  text-decoration: double;
+  font-size: 20px;
+  color: white;
+  padding: 10px 150px;
+  margin: 20px;
+  border-radius: 15px 15px 15px 15px;
+  background-color: black;
+  box-shadow: inset 1 1 1 1 #fff;
+  padding: 1 1rem;
+  margin: 1 -1rem;
+  transition: color 0.8s ease-in-out, box-shadow 0.8s ease-in-out;
+}
+a:hover {
+  color: black;
+  box-shadow: inset 550px 0 0 0 #fff;
+}
+.header p {
+  font-weight: 800;
+}
+.Sectionone {
+  height: 90vh;
+  width: 100%;
+  font-size: 20px;
+}
+.Sectiontwo {
+  height: 80vh;
+  width: 100%;
+  font-size: 20px;
+  margin-top: 100px;
+}
+.Sectionthree {
+  height: 75vh;
+  width: 100%;
+  font-size: 20px;
+  margin-top: 150px;
+}
+
+.outer1 {
+  outline: 5px solid black;
+  border: 3px solid white;
+  padding: 10px;
+  margin: 0 30px 0 30px;
+  border-radius: 15px;
+}
+.outer2 {
+  outline: 5px solid black;
+  border: 3px solid white;
+  padding: 10px;
+  margin: 0 30px 0 30px;
+  border-radius: 15px;
+}
+.outer3 {
+  outline: 5px solid black;
+  border: 3px solid white;
+  padding: 10px;
+  margin: 0 30px 0 30px;
+  border-radius: 15px;
+}
+ul {
+  margin: 0 30px;
+}
+li {
+  margin: 0 40px;
+}
